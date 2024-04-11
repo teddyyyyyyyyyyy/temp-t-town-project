@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Page</title>
+    <!-- MATERIAL ICON -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
+    <!-- STYLESHEET -->
+    <link rel="stylesheet" href="./scripts/styles/index.css">
+
+<body>
+    <div class="container">
+        <aside>
+            <div class="top">
+                <div class="logo">
+                    <img src="/Users/andrewmcclaflin/Downloads/Vista Logos (4)/logo-png.png" alt="">
+                    <h2>Title Town Furniture</h2>
+                </div>
+                <div class="close" id="close-btn">
+                    <span class="material-icons-sharp">close</span>
+                </div>
+            </div>
+
+            <div class="sidebar">
+                <a href="#">
+                    <span class="material-icons-sharp">grid_view</span>
+                    <h3>Dashboard</h3>
+                </a>
+                <a href="#" class="active">
+                    <span class="material-icons-sharp">person_outline</span>
+                    <h3>Customers</h3>
+                </a> <a href="#">
+                    <span class="material-icons-sharp">receipt_long</span>
+                    <h3>Orders</h3>
+                </a> <a href="#">
+                    <span class="material-icons-sharp">insights</span>
+                    <h3>Analytics</h3>
+                </a> <a href="#">
+                    <span class="material-icons-sharp">mail_outline</span>
+                    <h3>Messages</h3>
+                    <span class="message-count">26</span>
+                </a> <a href="#">
+                    <span class="material-icons-sharp">inventory</span>
+                    <h3>Products</h3>
+                </a> <a href="#">
+                    <span class="material-icons-sharp">report_gmailerrorred</span>
+                    <h3>Reports</h3>
+                </a> <a href="#">
+                    <span class="material-icons-sharp">settings</span>
+                    <h3>Settings</h3>
+                </a> <a href="#">
+                    <span class="material-icons-sharp">add</span>
+                    <h3>Add Product</h3>
+                </a> <a href="#">
+                    <span class="material-icons-sharp">logout</span>
+                    <h3>Logout</h3>
+                </a>
+            </div>
+        </aside>
+        <!-------------------------END OF ASIDE-------------------------->
+        <main>
+            <h1>Dashboard</h1>
+        
+            <div class="date">
+                <input type="date">
+            </div>
+        
+            <div class="insights">
+                <div class="sales">
+                    <span class="material-icons-sharp">analytics</span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Total Sales</h3>
+                            <h1>13,088</h1>
+                        </div>
+                        <div class="number">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="number">
+                                <p>81%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted">Last 24 Hours</small>
+                </div> 
+                <!-------------------------END OF SALES-------------------------->
+                <div class="expenses">
+                    <span class="material-icons-sharp">bar_chart</span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Total Expenses</h3>
+                            <h1>3,509</h1>
+                        </div>
+                        <div class="number">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="number">
+                                <p>40%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted">Last 24 Hours</small>
+                </div>
+                <!-------------------------END OF EXPENSES-------------------------->
+                <div class="income">
+                    <span class="material-icons-sharp">stacked_line_chart</span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Total Income</h3>
+                            <h1>9,579</h1>
+                        </div>
+                        <div class="number">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="number">
+                                <p>60%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted">Last 24 Hours</small>
+                </div>
+                <!-------------------------END OF INCOME-------------------------->
+            </div>
+            <!-------------------------END OF INSIGHTS-------------------------->
+                <div class="recent-orders">
+                    <h2>Recent Orders</h2>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Product Name</th>
+                                <th>Product Number</th>
+                                <th>Payment</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Sleek Modern Sofa</td>
+                                <td>897654</td>
+                                <td>Due</td>
+                                <td class="warning">Pending</td>
+                                <td class="primary">Details</td>
+                            </tr>
+                            <tr>
+                                <td>Modern Coffee Table</td>
+                                <td>897654</td>
+                                <td>Due</td>
+                                <td class="warning">Pending</td>
+                                <td class="primary">Details</td>
+                            </tr>
+                            <tr>
+                                <td>Floor Lamp</td>
+                                <td>897654</td>
+                                <td>Due</td>
+                                <td class="warning">Pending</td>
+                                <td class="primary">Details</td>
+                            </tr>
+                            <tr>
+                                <td>Cozy Area Rug</td>
+                                <td>897654</td>
+                                <td>Due</td>
+                                <td class="success">Order Complete</td>
+                                <td class="primary">Details</td>
+                            </tr>
+                            <tr>
+                                <td>Versatile Side Table</td>
+                                <td>897654</td>
+                                <td>Due</td>
+                                <td class="success">Order Complete</td>
+                                <td class="primary">Details</td>
+                            </tr>
+                            <tr>
+                                <td>Plush Throw Blanket</td>
+                                <td>897654</td>
+                                <td>Due</td>
+                                <td class="success">Order Complete</td>
+                                <td class="primary">Details</td>
+                            </tr>
+                            <tr>
+                                <td>Sleek Desk</td>
+                                <td>897654</td>
+                                <td>Due</td>
+                                <td class="success">Order Complete</td>
+                                <td class="primary">Details</td>
+                            </tr>
+                            <tr>
+                                <td>Modern L Desk</td>
+                                <td>897654</td>
+                                <td>Due</td>
+                                <td class="success">Order Complete</td>
+                                <td class="primary">Details</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <a href="#">Show All</a>
+                </div>
+        </main>
+        <!-------------------------END OF MAIN-------------------------->
+
+        <div class="right">
+            <div class="top">
+                <button id="menu-btn">
+                    <span class="material-icons-sharp">menu</span>
+                </button>
+                <div class="theme-toggler">
+                    <span class="material-icons-sharp">light_mode</span>
+                    <span class="material-icons-sharp">dark_mode</span>
+                </div>
+                <div class="profile">
+                    <div class="info">
+                        <p>Hey, <b>Andrew</b></p>
+                        <small class="text-muted">Admin</small>
+                    </div>
+                    <div class="profile-photo">
+                        <img src="">
+                    </div>
+                </div>
+            </div>
+            <!-------------------------END OF TOP-------------------------->
+            <div class="recent-updates">
+                <h2>Recent Updates</h2>
+                <div class="updates">
+                    <div class="update">
+                        <div class="profile-photo">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Mike_Tyson_2019_by_Glenn_Francis.jpg/220px-Mike_Tyson_2019_by_Glenn_Francis.jpg">
+                        </div>
+                        <div class="message">
+                            <p><b>Mike Tyson</b> Received his order of Sleek Modern Sofa.</p>
+                            <small class="text-muted">Just Now</small>
+                    </div>
+                    </div>
+                    <div class="update">
+                        <div class="profile-photo">
+                            <img src="https://i.pinimg.com/474x/c0/bd/7a/c0bd7acdf89a7419ca8f31846392a35d.jpg">
+                        </div>
+                        <div class="message">
+                            <p><b>Lebron James</b> Received his order of Modern Coffee Table.</p>
+                            <small class="text-muted">2 Minutes Ago</small>
+                    </div>
+                    </div>
+                    <div class="update">
+                        <div class="profile-photo">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Joe_Biden_presidential_portrait.jpg/800px-Joe_Biden_presidential_portrait.jpg">
+                        </div>
+                        <div class="message">
+                            <p><b>Joe Biden</b> Received his order of Cozy Area Rug.</p>
+                            <small class="text-muted">8 Minutes Ago</small>
+                    </div>
+                    </div>
+                    <div class="update">
+                        <div class="profile-photo">
+                            <img src="https://a.espncdn.com/combiner/i?img=/i/headshots/soccer/players/full/45843.png&w=350&h=254">
+                        </div>
+                        <div class="message">
+                            <p><b>Lionel Messi</b> Received his order of Stylish Bookshelf.</p>
+                            <small class="text-muted">12 Minutes Ago</small>
+                    </div>
+                    </div>
+                    <div class="update">
+                        <div class="profile-photo">
+                            <img src="https://hips.hearstapps.com/hmg-prod/images/justin-bieber-gettyimages-1202421980.jpg?crop=1xw:1.0xh;center,top&resize=640:*">
+                        </div>
+                        <div class="message">
+                            <p><b>Justin Bieber</b> Received his order of Plush Throw Blanket.</p>
+                            <small class="text-muted">20 Minutes Ago</small>
+                    </div>
+                    </div>
+                    <div class="update">
+                        <div class="profile-photo">
+                            <img src="https://img.redbull.com/images/c_crop,x_217,y_0,h_2133,w_1707/c_fill,w_450,h_600/q_auto:low,f_auto/redbullcom/2018/06/18/cae41691-8bcb-4d6d-8c0e-43310f90dba9/fortnite-battle-royale-ninja-blevins">
+                        </div>
+                        <div class="message">
+                            <p><b>Tyler Blevins</b> Received his order of Modern L Desk.</p>
+                            <small class="text-muted">25 Minutes Ago</small>
+                    </div>
+                    </div>
+                </div>
+            </div>
+             <!-------------------------END OF RECENT UPDATES-------------------------->
+             <div class="sales-analytics">
+                <h2>Sales Analytics</h2>
+                <div class="item online">
+                    <div class="icon">
+                        <span class="material-icons-sharp">shopping_cart</span>
+                    </div>
+                    <div class="right">
+                        <div class="info">
+                            <h3>ONLINE ORDERS</h3>
+                            <small class="text-muted">Last 24 hours</small>
+                        </div>
+                        <h5 class="success">+39%</h5>
+                        <h3>3849</h3>
+                    </div>
+                </div>
+                <div class="item offline">
+                    <div class="icon">
+                        <span class="material-icons-sharp">local_mall</span>
+                    </div>
+                    <div class="right">
+                        <div class="info">
+                            <h3>PHYSICAL ORDERS</h3>
+                            <small class="text-muted">Last 24 hours</small>
+                        </div>
+                        <h5 class="danger">-19%</h5>
+                        <h3>1100</h3>
+                    </div>
+                </div>
+                <div class="item customers">
+                    <div class="icon">
+                        
+                    </div>
+                    <div class="right">
+                        <div class="info">
+                            <h3>NEW CUSTOMERS</h3>
+                            <small class="text-muted">Last 24 hours</small>
+                        </div>
+                        <h5 class="success">+20%</h5>
+                        <h3>2556</h3>
+                    </div>
+                </div>
+             </div>
+        </div>
+    </div>
+</body>
+
+</html>

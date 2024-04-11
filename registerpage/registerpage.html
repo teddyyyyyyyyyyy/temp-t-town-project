@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TTown Furniture Landing Page</title>
+    <link rel="stylesheet" href="./registerpage.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+<body>
+   <div class="container">
+       <form class="form" id="register" onsubmit="return false">
+        <h1 class="form__title">Register</h1>
+        <div class="form__message form__message--error"></div>
+        <div class="form__input-group">
+            <input type="text" class="form__input" id="firstname" autofocus placeholder="First name">
+            <div class="form__input-error-message"></div>
+        </div>
+        <div class="form__input-group">
+            <input type="text" class="form__input" id="lastname" autofocus placeholder="Last name">
+            <div class="form__input-error-message"></div>
+        </div>
+        <div class="form__input-group">
+            <input type="text" class="form__input" id="username" autofocus placeholder="Username">
+            <div class="form__input-error-message"></div>
+        </div>
+        <div class="form__input-group">
+            <input type="text" class="form__input" id="email" autofocus placeholder="Email Address">
+            <div class="form__input-error-message"></div>
+        </div>
+        <div class="form__input-group">
+            <input type="text" class="form__input" id="customerAddress" autofocus placeholder="Home Address">
+            <div class="form__input-error-message"></div>
+        </div>
+        <div class="form__input-group">
+            <input type="text" class="form__input" id = "phoneNumber" autofocus placeholder="Phone Number">
+            <div class="form__input-error-message"></div>
+        </div>
+        <div class="form__input-group">
+            <input type="password" class="form__input" id="password" autofocus placeholder="Password">
+            <div class="form__input-error-message"></div>
+        </div>
+        <div class="form__input-group">
+            <input type="password" class="form__input" autofocus placeholder="Confirm Password">
+            <div class="form__input-error-message"></div>
+        </div>
+        <button class="form__button" type="submit" onclick="getCustomer()">Continue</button>
+        <p class="link">
+            <p>Already have an account? <a href="/Users/andrewmcclaflin/Desktop/TTownFurniture/landingpage/landingPage.html">Sign In</a></p>
+        </p>
+       </form>
+   </div>
+   <script src="./registerpage.js"></script>
+</body>
+</html>

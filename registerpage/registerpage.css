@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.container .form__link {
+    color: #fff; /* Change link color to white */
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.container .form__link:hover {
+    text-decoration: underline; /* Add underline effect on hover */
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(https://www.ua.edu/img/quadaerial01_1920.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    width: 420px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 50px 40px;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
+
+.container .form__input {
+    width: calc(100% - 40px);
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 25px;
+    font-size: 16px;
+    color: #fff;
+    padding: 0 20px;
+    margin-bottom: 20px;
+}
+
+.container .form__input::placeholder {
+    color: #fff;
+}
+
+.container .form__button {
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.container .form__text {
+    margin-top: 20px;
+}
+
+.container .form__link {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.container .form__link:hover {
+    text-decoration: underline;
+}
+
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 100px;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the transparency as needed */
+    padding: 10px; /* Adjust padding as needed */
+    border-radius: 10px; /* Optional: Add border radius for a rounded look */
+}
